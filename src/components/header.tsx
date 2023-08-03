@@ -38,7 +38,7 @@ export default function header() {
           </nav> */}
 
           <div className="flex items-center gap-2 cursor-pointer">
-            <span className="leading-7 [&:not(:first-child)]:mt-6">Administrador</span>
+            <span className="leading-7 [&:not(:first-child)]:mt-6 font-medium">Administrador</span>
             <DropdownMenu>
               <DropdownMenuTrigger>
                 <Avatar>

@@ -15,7 +15,10 @@ export default function Articles() {
         Publicar artigo
       </h2>
       </div>
-      
+      <p className="leading-7 [&:not(:first-child)]:mt-6">
+        Sobre o que vai escrever hoje?
+          
+        </p>
       </div>
 
     </div>
