@@ -16,11 +16,14 @@ export default function View() {
       </div>
 
       <div className="container pt-20">
+        <div className="flex flex-row items-center justify-between py-6 mb-10">
         <Link href="/">
           <p className="leading-7 text-gray-400 [&:not(:first-child)]:mt-6">
             Voltar
           </p>
         </Link>
+        <span>opções</span>
+        </div>
         <div className="flex flex-col items-center justify-center ">
           <h2 className="mt-10 scroll-m-20 pb-2 text-4xl font-semibold tracking-tight transition-colors first:mt-0 text-center">
             Nome do Artigo aqui
