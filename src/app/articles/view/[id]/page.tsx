@@ -25,10 +25,11 @@ export default function View() {
         <span>opções</span>
         </div>
         <div className="flex flex-col items-center justify-center ">
+        <div className="text-sm font-semibold">May 11, 2023</div>
           <h2 className="mt-10 scroll-m-20 pb-2 text-4xl font-semibold tracking-tight transition-colors first:mt-0 text-center">
             Nome do Artigo aqui
           </h2>
-          <p className="leading-8 tracking-normal text-[16px] px-60 text-center text-gray-500/100 [&:not(:first-child)]:mt-6">
+          <p className="leading-6 tracking-normal text-sm font-semibold text-[16.2px] px-52 text-center text-gray-600/95 [&:not(:first-child)]:mt-6">
             lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             sunt animi nam voluptatibus nesciunt, temporibus blanditiis error
             expedita quidem consectetur.
