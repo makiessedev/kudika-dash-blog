@@ -81,9 +81,6 @@ export default function Articles() {
           <div className="flex flex-col gap-2 my-6">
             <Button variant="default">Publicar</Button>
           </div>
-          <div className="flex flex-col gap-2 my-6">
-            <Button variant="destructive">Cancelar</Button>
-          </div>
         </form>
       </div>
       <Footer />
