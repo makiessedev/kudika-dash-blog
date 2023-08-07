@@ -6,6 +6,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Image from "next/image";
 import Screen1 from "@/assets/screen1.png";
 import Footer from "@/components/Footer";
+import { FiArrowLeft } from 'react-icons/fi'
 // import { BsArrowLeftShort } from
 
 export default function View() {
@@ -18,9 +19,7 @@ export default function View() {
       <div className="container pt-20">
         <div className="flex flex-row items-center justify-between py-6 mb-10">
         <Link href="/">
-          <p className="leading-7 text-gray-400 [&:not(:first-child)]:mt-6">
-            Voltar
-          </p>
+          <FiArrowLeft size={20} className="opacity-70" />
         </Link>
         <span>opções</span>
         </div>
