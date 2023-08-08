@@ -6,7 +6,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Image from "next/image";
 import Screen1 from "@/assets/screen1.png";
 import Footer from "@/components/Footer";
-import { FiArrowLeft } from 'react-icons/fi'
+import { FiArrowLeft } from "react-icons/fi";
 // import { BsArrowLeftShort } from
 
 export default function View() {
@@ -18,17 +18,17 @@ export default function View() {
 
       <div className="container pt-20">
         <div className="flex flex-row items-center justify-between py-6 mb-10">
-        <Link href="/">
-          <FiArrowLeft size={20} className="opacity-70" />
-        </Link>
-        <span>opções</span>
+          <Link href="/">
+            <FiArrowLeft size={20} className="opacity-70" />
+          </Link>
+          <span>opções</span>
         </div>
         <div className="flex flex-col items-center justify-center ">
-        <div className="text-sm font-semibold">May 11, 2023</div>
-          <h2 className="mt-10 scroll-m-20 pb-2 text-4xl font-semibold tracking-tight transition-colors first:mt-0 text-center">
+          <div className="text-sm font-semibold">May 11, 2023</div>
+          <h2 className="mt-10 scroll-m-20 pb-2 text-2xl md:text-4xl font-semibold tracking-tight transition-colors first:mt-0 text-center">
             Nome do Artigo aqui
           </h2>
-          <p className="leading-6 tracking-normal text-sm font-semibold text-[16.2px] px-52 text-center text-gray-600/95 [&:not(:first-child)]:mt-6">
+          <p className="leading-6 tracking-normal text-sm md:text-base font-semibold md:text-[16.2px] px-4 md:px-16 lg:px-32 text-center text-gray-600/95 md:[&:not(:first-child)]:mt-6">
             lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             sunt animi nam voluptatibus nesciunt, temporibus blanditiis error
             expedita quidem consectetur.
@@ -53,7 +53,7 @@ export default function View() {
             </div>
           </div>
         </div>
-        <section className="container mt-32 pl-52 pr-52 flex flex-col gap-3">
+        <section className="container mt-32 pl-4 md:pl-9 lg:pl-28 pr-4 md:pr-9 lg:pr-28 flex flex-col gap-3">
           <p className="leading-7 tracking-wide [&:not(:first-child)]:mt-6">
             Uma estratégia de marketing eficaz é essencial para o sucesso de
             qualquer negócio. No entanto, criar uma estratégia de marketing pode
