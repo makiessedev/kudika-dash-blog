@@ -10,9 +10,9 @@ export default function Home() {
                 <CardTitle className="mb-8">Olá, Kudika Digital.👋🏾</CardTitle>
             <form action="" className="flex flex-col gap-3">
                 <label htmlFor="" >Nome de usuário</label>
-                <Input className="w-full" />
+                <Input className="w-full" placeholder="kudikadigital" />
                 <label htmlFor="">Senha</label>
-                <Input className="w-full" />
+                <Input className="w-full" placeholder="**********" />
                 <Button className="w-full mt-2">Entrar</Button>
             </form>
             </Card>
